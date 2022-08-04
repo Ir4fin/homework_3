@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class HomeWork {
     @Test
     void firstTest(){
-        Assertions.assertFalse((2048 - 15) <= (95));
+        Assertions.assertTrue((2048 - 15) > (95));
     }
     @Test
     void secondTest (){
