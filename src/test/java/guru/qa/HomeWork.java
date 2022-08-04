@@ -8,4 +8,8 @@ public class HomeWork {
     void firstTest(){
         Assertions.assertTrue((2048 - 15) > (100));
     }
+    @Test
+    void secondTest(){
+        Assertions.assertTrue(500 > 40);
+    }
 }
