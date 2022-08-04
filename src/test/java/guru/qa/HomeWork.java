@@ -12,4 +12,8 @@ public class HomeWork {
     void secondTest (){
         Assertions.assertFalse((850-50) <= 200);
     }
+    @Test
+    void secondTest(){
+        Assertions.assertTrue(500 > 40);
+    }
 }
